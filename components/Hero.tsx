@@ -24,13 +24,13 @@ export default function Hero() {
           style={{ objectFit: "cover", objectPosition: "center" }}
           sizes="100vw"
         />
-        {/* Dégradé chaleureux */}
+        {/* Dégradé violet électrique */}
         <div
           style={{
             position: "absolute",
             inset: 0,
             background:
-              "linear-gradient(135deg, rgba(30,24,18,0.72) 0%, rgba(30,24,18,0.45) 60%, rgba(30,24,18,0.3) 100%)",
+              "linear-gradient(135deg, rgba(15,11,30,0.85) 0%, rgba(108,59,238,0.5) 60%, rgba(34,197,94,0.2) 100%)",
           }}
         />
       </div>
@@ -52,8 +52,8 @@ export default function Hero() {
             display: "inline-flex",
             alignItems: "center",
             gap: "0.4rem",
-            background: "rgba(250,248,244,0.15)",
-            border: "1px solid rgba(250,248,244,0.3)",
+            background: "rgba(108,59,238,0.25)",
+            border: "1px solid rgba(167,139,250,0.5)",
             borderRadius: 100,
             padding: "0.35rem 0.9rem",
             marginBottom: "1.5rem",
@@ -82,9 +82,9 @@ export default function Hero() {
         >
           Votre espace vape
           <br />
-          <span style={{ color: "var(--nv-copper)" }}>chaleureux</span> à
+          <span style={{ color: "#A78BFA" }}>nouvelle génération</span>
           <br />
-          Yssingeaux
+          à Yssingeaux
         </h1>
 
         {/* Baseline */}

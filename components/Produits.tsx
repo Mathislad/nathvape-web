@@ -180,7 +180,7 @@ export default function Produits() {
                 position: "absolute",
                 inset: 0,
                 background:
-                  "linear-gradient(to top, rgba(30,24,18,0.3) 0%, transparent 50%)",
+                  "linear-gradient(to top, rgba(15,11,30,0.5) 0%, transparent 60%)",
               }}
             />
             <div
@@ -189,7 +189,7 @@ export default function Produits() {
                 bottom: "1.5rem",
                 left: "1.5rem",
                 right: "1.5rem",
-                background: "rgba(250,248,244,0.92)",
+                background: "rgba(248,249,255,0.96)",
                 borderRadius: 12,
                 padding: "1rem",
                 backdropFilter: "blur(8px)",

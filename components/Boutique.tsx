@@ -59,7 +59,7 @@ export default function Boutique() {
               padding: "0.75rem 1.25rem",
               fontSize: "0.85rem",
               fontWeight: 700,
-              boxShadow: "0 4px 20px rgba(160,113,79,0.4)",
+              boxShadow: "0 4px 20px rgba(108,59,238,0.4)",
               lineHeight: 1.3,
             }}
           >

@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  /* Palette NathVape — chaleureux, local, féminin subtil */
-  --nv-cream:    #FAF8F4;   /* fond principal */
-  --nv-off:      #F4F1EB;   /* sections alternées */
-  --nv-linen:    #EDE8DF;   /* hover léger */
-  --nv-stone:    #DDD6CB;   /* bordures */
-  --nv-sage:     #7A9172;   /* vert sauge accent */
-  --nv-sage-lt:  #C8D9C4;   /* sauge clair */
-  --nv-copper:   #A0714F;   /* cuivre/terracotta principal */
-  --nv-copper-h: #84593D;   /* hover cuivre */
-  --nv-muted:    #8A7B6E;   /* texte secondaire */
-  --nv-body:     #3A3028;   /* texte courant */
-  --nv-dark:     #1E1812;   /* texte sombre, footer */
+  /* Palette NathVape — vive, moderne, énergique */
+  --nv-cream:    #F8F9FF;   /* fond principal — blanc bleuté très léger */
+  --nv-off:      #EEF1FF;   /* sections alternées — lavande très claire */
+  --nv-linen:    #E3E8FF;   /* hover léger */
+  --nv-stone:    #C8D0F0;   /* bordures */
+  --nv-sage:     #22C55E;   /* vert vif / mint */
+  --nv-sage-lt:  #DCFCE7;   /* vert clair */
+  --nv-copper:   #6C3BEE;   /* violet électrique — accent principal */
+  --nv-copper-h: #5427D4;   /* hover violet */
+  --nv-muted:    #6B7280;   /* texte secondaire */
+  --nv-body:     #1F1B2E;   /* texte courant — quasi noir violet */
+  --nv-dark:     #0F0B1E;   /* footer / fond sombre */
 }
 
 @theme inline {

@@ -47,8 +47,8 @@ export default function Contact() {
           <span
             style={{
               display: "inline-block",
-              background: "rgba(160,113,79,0.2)",
-              color: "var(--nv-copper)",
+              background: "rgba(108,59,238,0.15)",
+              color: "#A78BFA",
               borderRadius: 100,
               padding: "0.3rem 0.9rem",
               fontSize: "0.78rem",
@@ -56,6 +56,7 @@ export default function Contact() {
               letterSpacing: "0.06em",
               textTransform: "uppercase",
               marginBottom: "1rem",
+              border: "1px solid rgba(167,139,250,0.2)",
             }}
           >
             Venir nous voir
@@ -64,13 +65,13 @@ export default function Contact() {
             style={{
               fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)",
               fontWeight: 800,
-              color: "#FAF8F4",
+              color: "#F8F9FF",
               lineHeight: 1.2,
               letterSpacing: "-0.025em",
             }}
           >
             On est là pour vous,{" "}
-            <span style={{ color: "var(--nv-copper)" }}>venez nous dire bonjour</span>
+            <span style={{ color: "#A78BFA" }}>venez nous dire bonjour</span>
           </h2>
         </div>
 
@@ -87,8 +88,8 @@ export default function Contact() {
           {/* Adresse */}
           <div
             style={{
-              background: "rgba(250,248,244,0.06)",
-              border: "1px solid rgba(250,248,244,0.1)",
+              background: "rgba(108,59,238,0.08)",
+              border: "1px solid rgba(167,139,250,0.15)",
               borderRadius: 16,
               padding: "1.75rem",
             }}
@@ -98,18 +99,18 @@ export default function Contact() {
                 width: 42,
                 height: 42,
                 borderRadius: 10,
-                background: "rgba(160,113,79,0.2)",
+                background: "rgba(108,59,238,0.2)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 marginBottom: "1rem",
               }}
             >
-              <MapPin size={18} color="var(--nv-copper)" />
+              <MapPin size={18} color="#A78BFA" />
             </div>
             <h3
               style={{
-                color: "#FAF8F4",
+                color: "#F8F9FF",
                 fontWeight: 700,
                 marginBottom: "0.5rem",
                 fontSize: "0.95rem",
@@ -117,7 +118,7 @@ export default function Contact() {
             >
               Adresse
             </h3>
-            <p style={{ color: "rgba(250,248,244,0.65)", fontSize: "0.9rem", lineHeight: 1.6 }}>
+            <p style={{ color: "rgba(248,249,255,0.65)", fontSize: "0.9rem", lineHeight: 1.6 }}>
               15 rue de Chante Barbe
               <br />
               43200 Yssingeaux
@@ -130,7 +131,7 @@ export default function Contact() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "0.3rem",
-                color: "var(--nv-copper)",
+                color: "#A78BFA",
                 fontSize: "0.83rem",
                 fontWeight: 600,
                 textDecoration: "none",
@@ -145,8 +146,8 @@ export default function Contact() {
           {/* Téléphone */}
           <div
             style={{
-              background: "rgba(250,248,244,0.06)",
-              border: "1px solid rgba(250,248,244,0.1)",
+              background: "rgba(108,59,238,0.08)",
+              border: "1px solid rgba(167,139,250,0.15)",
               borderRadius: 16,
               padding: "1.75rem",
             }}
@@ -156,18 +157,18 @@ export default function Contact() {
                 width: 42,
                 height: 42,
                 borderRadius: 10,
-                background: "rgba(160,113,79,0.2)",
+                background: "rgba(34,197,94,0.15)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 marginBottom: "1rem",
               }}
             >
-              <Phone size={18} color="var(--nv-copper)" />
+              <Phone size={18} color="#4ADE80" />
             </div>
             <h3
               style={{
-                color: "#FAF8F4",
+                color: "#F8F9FF",
                 fontWeight: 700,
                 marginBottom: "0.5rem",
                 fontSize: "0.95rem",
@@ -178,7 +179,7 @@ export default function Contact() {
             <a
               href="tel:0614571753"
               style={{
-                color: "rgba(250,248,244,0.65)",
+                color: "rgba(248,249,255,0.85)",
                 fontSize: "1.1rem",
                 fontWeight: 600,
                 textDecoration: "none",
@@ -189,7 +190,7 @@ export default function Contact() {
             </a>
             <p
               style={{
-                color: "rgba(250,248,244,0.4)",
+                color: "rgba(248,249,255,0.4)",
                 fontSize: "0.82rem",
                 marginTop: "0.4rem",
               }}
@@ -201,8 +202,8 @@ export default function Contact() {
           {/* Horaires */}
           <div
             style={{
-              background: "rgba(250,248,244,0.06)",
-              border: "1px solid rgba(250,248,244,0.1)",
+              background: "rgba(108,59,238,0.08)",
+              border: "1px solid rgba(167,139,250,0.15)",
               borderRadius: 16,
               padding: "1.75rem",
             }}
@@ -212,18 +213,18 @@ export default function Contact() {
                 width: 42,
                 height: 42,
                 borderRadius: 10,
-                background: "rgba(160,113,79,0.2)",
+                background: "rgba(108,59,238,0.2)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 marginBottom: "1rem",
               }}
             >
-              <Clock size={18} color="var(--nv-copper)" />
+              <Clock size={18} color="#A78BFA" />
             </div>
             <h3
               style={{
-                color: "#FAF8F4",
+                color: "#F8F9FF",
                 fontWeight: 700,
                 marginBottom: "0.75rem",
                 fontSize: "0.95rem",
@@ -239,7 +240,7 @@ export default function Contact() {
                     display: "flex",
                     justifyContent: "space-between",
                     fontSize: "0.82rem",
-                    color: h.h === "Fermé" ? "rgba(250,248,244,0.3)" : "rgba(250,248,244,0.65)",
+                    color: h.h === "Fermé" ? "rgba(248,249,255,0.3)" : "rgba(248,249,255,0.65)",
                   }}
                 >
                   <span style={{ fontWeight: 500 }}>{h.jour}</span>
@@ -253,7 +254,7 @@ export default function Contact() {
         {/* CTA final */}
         <div
           style={{
-            background: "linear-gradient(135deg, var(--nv-copper) 0%, var(--nv-copper-h) 100%)",
+            background: "linear-gradient(135deg, #6C3BEE 0%, #22C55E 100%)",
             borderRadius: 20,
             padding: "2.5rem",
             textAlign: "center",
@@ -287,7 +288,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               style={{
                 background: "#fff",
-                color: "var(--nv-copper)",
+                color: "#6C3BEE",
                 padding: "0.8rem 1.8rem",
                 borderRadius: 100,
                 fontWeight: 700,
@@ -326,7 +327,7 @@ export default function Contact() {
         {/* Footer bas */}
         <div
           style={{
-            borderTop: "1px solid rgba(250,248,244,0.1)",
+            borderTop: "1px solid rgba(167,139,250,0.15)",
             paddingTop: "1.5rem",
             display: "flex",
             justifyContent: "space-between",
@@ -339,12 +340,12 @@ export default function Contact() {
             style={{
               fontWeight: 700,
               fontSize: "1rem",
-              color: "#FAF8F4",
+              color: "#F8F9FF",
             }}
           >
-            Nath<span style={{ color: "var(--nv-copper)" }}>Vape</span>
+            Nath<span style={{ color: "#A78BFA" }}>Vape</span>
           </span>
-          <p style={{ color: "rgba(250,248,244,0.35)", fontSize: "0.8rem" }}>
+          <p style={{ color: "rgba(248,249,255,0.35)", fontSize: "0.8rem" }}>
             © {new Date().getFullYear()} NathVape · 15 rue de Chante Barbe, 43200 Yssingeaux
           </p>
         </div>
