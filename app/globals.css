@@ -1,22 +1,51 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Palette NathVape — chaleureux, local, féminin subtil */
+  --nv-cream:    #FAF8F4;   /* fond principal */
+  --nv-off:      #F4F1EB;   /* sections alternées */
+  --nv-linen:    #EDE8DF;   /* hover léger */
+  --nv-stone:    #DDD6CB;   /* bordures */
+  --nv-sage:     #7A9172;   /* vert sauge accent */
+  --nv-sage-lt:  #C8D9C4;   /* sauge clair */
+  --nv-copper:   #A0714F;   /* cuivre/terracotta principal */
+  --nv-copper-h: #84593D;   /* hover cuivre */
+  --nv-muted:    #8A7B6E;   /* texte secondaire */
+  --nv-body:     #3A3028;   /* texte courant */
+  --nv-dark:     #1E1812;   /* texte sombre, footer */
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream:    var(--nv-cream);
+  --color-off:      var(--nv-off);
+  --color-linen:    var(--nv-linen);
+  --color-stone:    var(--nv-stone);
+  --color-sage:     var(--nv-sage);
+  --color-sage-lt:  var(--nv-sage-lt);
+  --color-copper:   var(--nv-copper);
+  --color-copper-h: var(--nv-copper-h);
+  --color-muted:    var(--nv-muted);
+  --color-body:     var(--nv-body);
+  --color-nvdark:   var(--nv-dark);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--nv-cream);
+  color: var(--nv-body);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
 }
 
 body {
